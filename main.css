@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +21,8 @@ body {
 
 .header {
     padding: 50px 0;
-    background-color: #1f1f1f; /* Dark background */
+    background-color: #1f1f1f;
+    /* Dark background */
     color: #fff;
     min-height: 100vh;
     background: linear-gradient(135deg, #1f1f1f 50%, #444 50%);
@@ -36,7 +36,8 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
-    border: 5px solid #f39c12; /* Orange border */
+    border: 5px solid #f39c12;
+    /* Orange border */
 }
 
 .profile-picture img {
@@ -46,9 +47,12 @@ body {
 }
 
 @keyframes profileZoom {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
@@ -57,7 +61,8 @@ body {
 h1 {
     font-size: 3rem;
     margin-bottom: 10px;
-    color: #f39c12; /* Orange color */
+    color: #f39c12;
+    /* Orange color */
     animation: textSlideIn 2s forwards;
 }
 
@@ -66,6 +71,7 @@ h1 {
         transform: translateY(-100%);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -107,7 +113,8 @@ p {
 h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #f39c12; /* Orange color */
+    color: #f39c12;
+    /* Orange color */
     animation: textSlideUp 2s ease-out;
 }
 
@@ -116,13 +123,16 @@ h2 {
         transform: translateY(100%);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
-.education-item, .work-item, .list-item {
+.education-item,
+.work-item,
+.list-item {
     font-size: 2vw;
     margin-bottom: 40px;
     background-color: #9c9fa0;
@@ -132,9 +142,12 @@ h2 {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.education-item:hover, .work-item:hover, .list-item:hover {
+.education-item:hover,
+.work-item:hover,
+.list-item:hover {
     transform: translateY(-10px);
-    background-color: #f39c12; /* Highlight on hover */
+    background-color: #f39c12;
+    /* Highlight on hover */
     color: #fff;
 }
 
@@ -143,4 +156,3 @@ h2 {
     position: relative;
     padding-left: 20px;
 }
-
